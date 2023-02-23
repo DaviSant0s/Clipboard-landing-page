@@ -13,14 +13,6 @@
     --color4: #9fabb2;
 }
 
-h1, h2 {
-    color: var(--color3);
-}
-
-p {
-    color: var(--color4);
-}
-
 header {
     background-image: url(../images/bg-header-mobile.png);
     background-size: cover;
@@ -35,22 +27,32 @@ header > img {
     height: 40%;
 }
 
-div#titulo1 {
-    /* background-color: lightgreen; */
+h1, h2, h3 {
+    /* background-color: blue; */
+    color: var(--color3);
+    text-align: center;
+}
+
+p {
+    /* background-color: red; */
+    color: var(--color4);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.principal {
+    padding: 0px 40px;
+}
+
+#titulo1 {
+    /* background-color: rgba(0, 0, 0, 0.527); */
     margin-top: -35px;
-    padding: 0px 20px 20px;
-}
-
-div#titulo1 > h1 {
-    text-align: center;
-}
-
-div#titulo1 > p {
-    text-align: center;
-    margin-top: 30px;
 }
 
 .botao {
+    /* background-color: #277c6f33; */
+    padding: 60px 0px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,7 +68,6 @@ button {
 .botao-ios {
     background-color: var(--color1);
     box-shadow: 0px 2px 0px #277c6f;
-    margin-top: 40px;
 }
 
 .botao-mac {
@@ -85,3 +86,21 @@ button {
     line-height: 3.5;
 }
 
+#controle {
+    /* background-color: #61ff7b38; */
+    padding-top: 90px;
+}
+
+#topicos {
+    /* background-color: #444d94; */
+}
+
+#computador img {
+    /* background-color: #277c6f; */
+    width: 100%;
+    padding-top: 70px;
+}
+
+.topicos {
+    padding-top: 70px;
+}
