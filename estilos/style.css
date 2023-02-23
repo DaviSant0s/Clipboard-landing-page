@@ -17,7 +17,7 @@ header {
     background-image: url(../images/bg-header-mobile.png);
     background-size: cover;
     /* height: 63vh; */
-    height: 45vh;
+    height: 35vh;
 
     display: flex;
     justify-content: center;
