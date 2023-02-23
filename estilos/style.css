@@ -38,10 +38,11 @@ p {
     color: var(--color4);
     text-align: center;
     padding-top: 20px;
+    line-height: 1.5;
 }
 
 .principal {
-    padding: 0px 40px;
+    padding: 0px 30px;
 }
 
 #titulo1 {
