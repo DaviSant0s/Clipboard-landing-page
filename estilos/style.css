@@ -42,7 +42,7 @@ p {
 }
 
 .principal {
-    padding: 0px 30px;
+    padding: 0px 25px;
 }
 
 #titulo1 {
@@ -97,11 +97,20 @@ button {
 }
 
 #computador img {
-    /* background-color: #277c6f; */
+    /* background-color: #277c6f;  */
     width: 100%;
     padding-top: 70px;
 }
 
 .topicos {
     padding-top: 70px;
+}
+
+#acesso {
+    margin-top: 200px;
+}
+
+#acesso img {
+    width: 100%;
+    padding: 60px 0px;
 }
