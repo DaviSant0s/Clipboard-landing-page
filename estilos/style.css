@@ -35,11 +35,14 @@ h1, h2, h3 {
 }
 
 p {
-    /* background-color: red; */
     color: var(--color4);
     text-align: center;
-    padding-top: 20px;
     line-height: 1.5;
+} 
+
+p.first-line {
+    /* background-color: red; */
+    padding-top: 20px;
 }
 
 .principal {
@@ -93,10 +96,6 @@ button {
     padding-top: 90px;
 }
 
-#topicos {
-    /* background-color: #444d94; */
-}
-
 #computador img {
     /* background-color: #277c6f;  */
     width: 100%;
@@ -114,4 +113,52 @@ button {
 #acesso img {
     width: 100%;
     padding: 60px 0px;
+}
+
+/* ------------ */
+.descrition-icon {
+    padding-top: 80px;
+}
+
+div.image {
+    padding-bottom: 35px;
+}
+
+.image img {
+    display: block;
+    margin: auto;
+}
+
+/* ------------- */
+
+#logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+    
+}
+
+#logo-google {
+    width: 40%;
+}
+
+#logo-ibm {
+    width: 34%;
+}
+
+#logo-microsoft {
+    width: 37%;
+}
+
+#logo-hp {
+    width: 30%;
+}
+
+#logo-vector {
+    width: 30%;
+}
+
+#logos img + img{
+    padding-top: 60px;
 }
