@@ -29,7 +29,7 @@ header > img {
 }
 
 h1, h2, h3 {
-    /* background-color: blue; */
+    /* background-color: blue; */ 
     color: var(--color3);
     text-align: center;
 }
@@ -161,4 +161,11 @@ div.image {
 
 #logos img + img{
     padding-top: 60px;
+}
+
+/* ------------ */
+
+#titulo2 {
+    margin-top: 130px;
+    /* background-color: red; */
 }
