@@ -185,8 +185,13 @@ footer > img {
     
 }
 
-footer > span + span {
+footer > a + a {
     padding-top: 30px;
+}
+
+.links {
+    color: var(--color3);
+    text-decoration: none;
 }
 
 #redes-sociais {
