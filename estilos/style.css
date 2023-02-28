@@ -185,7 +185,7 @@ footer > img {
     
 }
 
-footer > a + a {
+.links + .links {
     padding-top: 30px;
 }
 
