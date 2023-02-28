@@ -167,11 +167,35 @@ div.image {
 
 #titulo2 {
     margin-top: 130px;
-    /* background-color: red; */
 }
 
 /* ---------- */
 
 footer {
-    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+    background-color: #9fabb217;
+}
+
+footer > img {
+    width: 13%;
+    padding: 40px 0;
+    
+}
+
+footer > span + span {
+    padding-top: 30px;
+}
+
+#redes-sociais {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+#twitter {
+    margin: 0px 50px;
 }
